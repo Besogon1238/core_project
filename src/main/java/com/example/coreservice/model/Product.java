@@ -1,11 +1,13 @@
 package com.example.coreservice.model;
 
 import jakarta.persistence.*;
+import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
 @Data
 @Entity
+@AllArgsConstructor
 @NoArgsConstructor // Обязателен для JPA
 @Table(name = "products")
 public class Product {
